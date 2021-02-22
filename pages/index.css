@@ -1,0 +1,60 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(300px,auto)
+   
+}
+
+section ul.grid-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+section ul li{
+    
+    list-style-type: none;
+    text-align: center;
+
+  
+}
+li.item{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li.item:hover{
+    opacity: 70%;
+}
+li .title{
+    color: gray;
+    font-weight: bold;
+}
+img.ca-img
+{
+    height:150px;
+    width:auto;
+    border-radius: 50%;
+}
+
+a.button1
+{
+    text-decoration:none;
+    text-align: center;
+    padding:0.5rem;
+    border-radius: 3%;
+    border: 1px solid #333;
+    box-shadow: inset 0 0 1px #333;color: black;
+}
+footer {
+    background: rgb(255, 232, 232);
+    color: black;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+

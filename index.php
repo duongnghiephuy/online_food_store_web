@@ -27,7 +27,7 @@ include("navbar.php")
               <p><?php echo $row['description']; ?></p>
               <p><?php echo $row['price']; ?> VND</p>
               <p>
-                <a class="button1" href="<?php echo 'details.php?id=' . $row['id'] . ''; ?>">Đọc thêm</a>
+                <!-- <a class="button1" href="<?php echo 'details.php?id=' . $row['id'] . ''; ?>">Đọc thêm</a> -->
                 <a class="button1" href="<?php echo 'orders.php?id=' . $row['id'] . ''; ?>">Đặt món</a>
               </p>
             </caption>

@@ -22,6 +22,7 @@ if ($_POST) {
         $orders = new Orders();
         $id = $orders->add_order($title, $customer, $address, $number, $email);
         echo "<div class='alert alert-success'> ID đơn hàng của bạn: $id</div>";
+        echo "<div class='alert alert-success'> Chúng tôi sẽ gọi lại để xác nhận đơn hàng $id</div>";
     } catch (Exception $exception) {
         die("Error:" . $exception->getMessage());
     }

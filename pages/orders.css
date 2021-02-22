@@ -18,7 +18,7 @@ select{
 }
 button{
     margin-top: 2%;
-    margin-left: 26.2%;
+    margin-left: 26.5%;
     padding: 0.5rem;
 }
 footer {
@@ -35,4 +35,23 @@ footer {
     padding-left: 26.5%;
     margin-top: 0;
     margin-bottom: 1rem;
+}
+@media screen and (min-width: 750px)
+{
+    div.form-grid{
+        display: grid;
+        grid-template-areas: 
+        '. inform .'
+        '. button .';
+
+    }
+    fieldset{
+        grid-area: inform;
+    }
+    button{
+        grid-area: button;
+        margin-right: 60%;
+        padding-right: 0.5rem;
+    }
+
 }

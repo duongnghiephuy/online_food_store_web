@@ -65,13 +65,13 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width)
+@media screen and (min-width: 750px)
 {
     header{
         background-image: url("../images/image2.png");
         align-content: center;
         background-repeat: no-repeat;
-        background-size: 100vw 250px
+        background-size: 100vw 400px
     }
 
 }

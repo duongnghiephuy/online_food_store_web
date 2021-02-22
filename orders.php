@@ -31,41 +31,44 @@ if ($_POST) {
 <section>
 
     <form action="orders.php?id=<?php echo $row['id']; ?>" method="POST" enctype="multipart/form-data">
-        <fieldset class="nest_grid">
-            <label for="title">Món kho</label>
-            <select name="title">
-                <?php
-                include("./conf/db.php");
-                $query = 'SELECT id,title,price FROM products ORDER BY id DESC';
-                $stmt = $con->prepare($query);
+        <div class="form-grid">
+            <fieldset class="nest_grid">
+                <label for="title">Món kho</label>
+                <select name="title">
+                    <?php
+                    include("./conf/db.php");
+                    $query = 'SELECT id,title,price FROM products ORDER BY id DESC';
+                    $stmt = $con->prepare($query);
 
-                $stmt->execute();
+                    $stmt->execute();
 
-                $num = $stmt->rowCount();
-                echo "Hey";
-                echo $num;
-                if ($num > 0) : ?>
+                    $num = $stmt->rowCount();
+                    echo "Hey";
+                    echo $num;
+                    if ($num > 0) : ?>
 
-                    <?php foreach ($stmt as $res) : ?>
-                        <?php if ($res['id'] == $id) : ?>
-                            <option selected value='<?= $res['title'] ?>'><?= $res["title"]; ?></option>
-                        <?php else : ?>
-                            <option value='<?= $res['title'] ?>'><?= $res["title"]; ?></option>
-                        <?php endif; ?>
-                    <?php endforeach; ?>
-                <?php endif; ?>
-            </select>
-            <label for='customer'>Tên người đặt</label>
-            <input type="text" name="customer">
-            <label for='address'>Địa chỉ</label>
-            <input type="text" name="address">
-            <label for='phone_number'>Số điện thoại</label>
-            <input type="tel" name="phone_number">
-            <label for='email'>Email</label>
-            <input type="email" name="email" placeholder="example@gmail.com">
+                        <?php foreach ($stmt as $res) : ?>
+                            <?php if ($res['id'] == $id) : ?>
+                                <option selected value='<?= $res['title'] ?>'><?= $res["title"]; ?></option>
+                            <?php else : ?>
+                                <option value='<?= $res['title'] ?>'><?= $res["title"]; ?></option>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                </select>
+                <label for='customer'>Tên người đặt</label>
+                <input type="text" name="customer">
+                <label for='address'>Địa chỉ</label>
+                <input type="text" name="address">
+                <label for='phone_number'>Số điện thoại</label>
+                <input type="tel" name="phone_number">
+                <label for='email'>Email</label>
+                <input type="email" name="email" placeholder="example@gmail.com">
 
-        </fieldset>
-        <button type="submit">Order</button>
+            </fieldset>
+            <button type="submit">Order</button>
+        </div>
+
     </form>
 
 </section>

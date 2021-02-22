@@ -1,6 +1,7 @@
 <?php
 include("navbar.php")
 ?>
+<link rel="stylesheet" href="./pages/menu.css">
 <section class="nest-grid">
     <figure>
         <img src="https://bizweb.dktcdn.net/100/347/970/products/bachi2.png?v=1555560138907">
@@ -15,8 +16,7 @@ include("navbar.php")
         </figcaption>
     </figure>
     <figure>
-        <img
-            src="https://cdn.tgdd.vn/Files/2018/11/28/1134436/nuoc-dua-de-duoc-bao-lau-sau-mot-ngay-co-nen-uong-khong--1.jpg">
+        <img src="https://cdn.tgdd.vn/Files/2018/11/28/1134436/nuoc-dua-de-duoc-bao-lau-sau-mot-ngay-co-nen-uong-khong--1.jpg">
         <figcaption>
             Dừa non
         </figcaption>

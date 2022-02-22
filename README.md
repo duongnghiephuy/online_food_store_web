@@ -1,5 +1,5 @@
 # online_food_store_web
-Basic website without frame work using PHP/HTML/CSS/JavaScript.
+Basic website without frame work using PHP/HTML/CSS/JavaScript/MySQL
 
 ## Process and Choice
 

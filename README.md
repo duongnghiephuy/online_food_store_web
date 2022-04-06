@@ -3,7 +3,7 @@ Basic website without frame work using PHP/HTML/CSS/JavaScript/MySQL
 
 Result can be seen on [Ca kho](http://cakho.ml/)
 
-## Process and Choice
+## Process
 
 
 

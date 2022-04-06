@@ -9,12 +9,14 @@ The aim is to learn, build from sratch without installing too many dependencies.
 
 <br>I remembered giving up web development after learning programming in C and some basic embedded.
 <br>At that time, I didn't know what to look for, how to plan my study and was simply overwhemled by the internet, by the sheer complexity and vast amount of technology. I dabbled in some HTML, some CSS on interactive website. It felt like child's play.
-<br>Django and React slapped me in the face, made me feel like I'm just not smart enough. 
+
+Django and React slapped me in the face, made me feel like I'm just not smart enough. 
 <br>I didn't even know about request-response cycle and how the internet works overall, what database is, what web hosting is. Everything was dark magic.
 
-<br> 1 year later, I had the courage to get back into it. This time, I found many fantastic resources going over the basics without framework. It was eye opening and definitely made me understand the web more, understand what is going under the hood of framework. 
 
-<br> In this project
+1 year later, I had the courage to get back into it. This time, I found many fantastic resources going over the basics without framework. It was eye opening and definitely made me understand the web more, understand what is going under the hood of framework. 
+
+In this project
 
 PHP8 with OOP and native template is used. 
 

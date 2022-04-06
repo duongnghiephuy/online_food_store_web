@@ -16,6 +16,8 @@ Django and React slapped me in the face, made me feel like I'm just not smart en
 
 1 year later, I had the courage to get back into it. This time, I found many fantastic resources going over the basics without framework. It was eye opening and definitely made me understand the web more, understand what is going under the hood of framework. 
 
+https://www.youtube.com/c/learncodeacademy/playlists Just great, I want to send him a big thank you for teaching me so much.
+
 In this project
 
 PHP8 with OOP and native template is used. 

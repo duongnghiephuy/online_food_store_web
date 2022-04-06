@@ -8,7 +8,7 @@ Result can be seen on [Ca kho](http://cakho.ml/)
 The aim is to learn, build from sratch without installing too many dependencies. The website should be light, fast, with basic authorization for admin, basic admin management for products displayed and orders (by SQL).    
 
 <br>I remembered giving up web development after learning programming in C and some basic embedded.
-<br>At that time, I didn't know what to look for, how to plan my study and was simply overwhemled by the internet, by the sheer complexity and vast amount of technology. I dabbled in some HTML, some CSS on interactive website. It felt like child's play.
+<br>At that time, I didn't know what to look for, how to plan my study and was simply overwhemled by the internet, by the sheer complexity and vast amount of technology. I dabbled in some HTML, some CSS on interactive website. It felt like I'm not learning anything to make a website.
 
 Django and React slapped me in the face, made me feel like I'm just not smart enough. 
 <br>I didn't even know about request-response cycle and how the internet works overall, what database is, what web hosting is. Everything was dark magic.

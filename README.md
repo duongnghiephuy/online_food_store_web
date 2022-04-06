@@ -6,9 +6,11 @@ Result can be seen on [Ca kho](http://cakho.ml/)
 ## Process and Choice
 
 
-I chose PHP not because of its popularity. PHP has come a long way from a bad language and now matured with object oriented programming, functional programming. This allows me to apply clear separation in code, use native PHP template with OOP, make SQL querry while keeeping the website as lightweight as possible. 
+
 
 The aim is to learn, build from sratch without installing too many dependencies. The website should be light, fast, with basic authorization for admin, basic admin management for products displayed and orders (by SQL).    
+
+PHP8 with OOP is used.
 
 CSS is built natively with CSS Grid, CSS Flexbox for responsive website. 
 
@@ -16,7 +18,7 @@ JavaScript is used in a few places to enable interactive web.
 
 Domain is free from Freenom. (It will charge you later if you have lots of traffic)
 
-I hosted this website for free on InfinityFree. (Just point it to Freenom domain) 
+I hosted this website for free on InfinityFree. (point it to Freenom domain) 
 
 ## Development environment
 
